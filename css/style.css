@@ -224,3 +224,79 @@ nav {
   color: #e75480;
   margin-bottom: 0.5rem;
 }
+/* ========== SKILLS SECTION ========== */
+.skills-section {
+  background: #fff;
+  padding: 4rem 8%;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.skills-category {
+  flex: 1;
+  min-width: 280px;
+}
+
+.skills-category h3 {
+  font-size: 1.3rem;
+  color: #e75480;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Technical skills */
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #f5c8d2;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.progress {
+  height: 12px;
+  background: #e75480;
+  width: 0%;
+  border-radius: 25px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* Soft skills */
+.soft-skills {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.soft-skills li {
+  background: #fdf6f9;
+  border: 1px solid #f5c8d2;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.soft-skills li:hover {
+  background: #e75480;
+  color: white;
+  transform: scale(1.05);
+}
